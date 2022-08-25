@@ -289,7 +289,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://github.com/Reflection-Mirror/Reflection-Mirror'>ReflectionMirror</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
+<b><a href='https://t.me/HollywoodNights'>HollywoodNights</a></b> - The Ultimate Telegram MIrror-Leech Bot to Upload Your File & Link in Google Drive & Telegram
 Choose a help category:
 '''
 
