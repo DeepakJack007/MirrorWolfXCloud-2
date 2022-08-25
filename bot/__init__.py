@@ -631,27 +631,27 @@ except KeyError:
 try:
     AUTHOR_NAME = getConfig('AUTHOR_NAME')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'Dipesh'
+        AUTHOR_NAME = 'HollywoodNights'
 except KeyError:
-    AUTHOR_NAME = 'Dipesh'
+    AUTHOR_NAME = 'HollywoodNights'
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/DipeshMirror'
+        AUTHOR_URL = 'https://t.me/WolfXCloud'
 except KeyError:
-    AUTHOR_URL = 'https://t.me/DipeshMirror'
+    AUTHOR_URL = 'https://t.me/WolfXCloud'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by ReflectionMirror Mirror Bot'
+        GD_INFO = 'Uploaded by @WolfXCloud'
 except KeyError:
-    GD_INFO = 'Uploaded by ReflectionMirror Mirror Bot'
+    GD_INFO = 'Uploaded by @WolfXCloud'
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'ReflectionMirror'
+        TITLE_NAME = 'WolfXCloud'
 except KeyError:
-    TITLE_NAME = 'ReflectionMirror'
+    TITLE_NAME = 'WolfXCloud'
 try:
     START_BTN1_NAME = getConfig('START_BTN1_NAME')
     START_BTN1_URL = getConfig('START_BTN1_URL')
@@ -659,7 +659,7 @@ try:
         raise KeyError
 except:
     START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/toxytech'
+    START_BTN1_URL = 'https://t.me/HollywoodNights'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -668,21 +668,21 @@ try:
         raise KeyError
 except:
     START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/DipeshMirror'
+    START_BTN2_URL = 'https://t.me/WolfXCloudSupport'
 
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
-        CREDIT_NAME = 'ReflectionMirror'
+        CREDIT_NAME = 'WolfXCloud'
 except KeyError:
-    CREDIT_NAME = 'ReflectionMirror'
+    CREDIT_NAME = 'WolfXCloud'
 
 try:
     FINISHED_PROGRESS_STR = getConfig('FINISHED_PROGRESS_STR') 
     UN_FINISHED_PROGRESS_STR = getConfig('UN_FINISHED_PROGRESS_STR')
 except:
-    FINISHED_PROGRESS_STR = '●' # '■'
-    UN_FINISHED_PROGRESS_STR = '○' # '□'
+    FINISHED_PROGRESS_STR = '■' # '■'
+    UN_FINISHED_PROGRESS_STR = '□' # '□'
 try:
     FSUB = getConfig('FSUB')
     FSUB = FSUB.lower() == 'true'
@@ -695,7 +695,7 @@ try:
         raise KeyError
 except KeyError:
     log_info("CHANNEL_USERNAME not provided! Using default @DipeshMirror")
-    CHANNEL_USERNAME = "DipeshMirror"
+    CHANNEL_USERNAME = "WolfXCloud"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
