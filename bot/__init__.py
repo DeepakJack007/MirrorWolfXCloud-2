@@ -418,7 +418,7 @@ try:
 except:
     RSS_CHAT_ID = None
 
-PICS = (environ.get('PICS',' ').split()
+PICS = (environ.get('PICS','')).split()
 
 try:
     RSS_USER_SESSION_STRING = getConfig('RSS_USER_SESSION_STRING')
