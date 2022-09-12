@@ -220,7 +220,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
             sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
         if PICS:
-            sendPhoto('Not Authorized user, deploy your own mirror bot', context.bot, update.message, photo=random.choice(PICS))
+            sendPhoto('Not Authorized user, deploy your own mirror bot', context.bot, update.message, random.choice(PICS), reply_markup)
         else:
             sendMarkup('Not Authorized user, deploy your own mirror bot', context.bot, update.message, reply_markup)
 
