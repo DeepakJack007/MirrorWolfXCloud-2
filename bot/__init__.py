@@ -418,7 +418,7 @@ try:
 except:
     RSS_CHAT_ID = None
 
-PICS = (environ.get('PICS', "https://telegra.ph//file/16b0ba1c5edd457b3468e.jpg", "https://telegra.ph/file/e668cb192e27b6bd08656.jpg", "https://telegra.ph/file/b4c0b0c4bc2e2a289aa0f.jpg", "https://telegra.ph/file/c079cbd413559c1df6b8d.jpg", "https://telegra.ph/file/6c29f39867833c2a1787f.jpg", "https://telegra.ph/file/737a7b4d519887c35ed21.jpg", "https://telegra.ph/file/a502e6322a201f5949058.jpg", "https://telegra.ph/file/b0868af85d1d17554a6d4.jpg", "https://telegra.ph/file/36440524ecd0a6b65138f.jpg", "https://telegra.ph/file/990684ecd3d119fa9fec6.jpg", "https://telegra.ph/file/67e0bf231a97cd2e364ea.jpg", "https://telegra.ph/file/2295a7207495eccbbe298.jpg", "https://telegra.ph/file/48a97320463caa61dba3d.jpg", "https://telegra.ph/file/cd7aad1ea310312886358.jpg", "https://telegra.ph/file/b0868af85d1d17554a6d4.jpg", "https://telegra.ph/file/36440524ecd0a6b65138f.jpg")).split()
+PICS = (environ.get('PICS' '')).split()
 
 try:
     RSS_USER_SESSION_STRING = getConfig('RSS_USER_SESSION_STRING')
